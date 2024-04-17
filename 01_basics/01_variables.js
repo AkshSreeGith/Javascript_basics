@@ -1,7 +1,7 @@
 // Variables can be declared using let, const, var
 // Even if you dont use let, const, var you can still declare a variable
 
-const accountId = 068
+const accountId = 68
 let accounState="Maharashtra"
 var accountPassword = "12345"
 accountCountry="India"
