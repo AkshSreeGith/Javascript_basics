@@ -29,3 +29,6 @@ newDate.toLocaleString('default', {
     weekday: "long",
     
 })
+
+let movie= new String("Fight Club")
+console.log(typeof(movie));
