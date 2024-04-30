@@ -9,7 +9,7 @@ const myObj = {
   email: "akshay@gmail.com",
   isLoggedIn: true,
   lastLoginDays: ["Monday", "Sunday"],
-  [sym]: "mykey1", //It's important to use [] brackets to use symbol as a key
+  [sym]: "mykey1", //It's important to use  [] brackets to use symbol as a key
 };
 
 // Adding function to an object
