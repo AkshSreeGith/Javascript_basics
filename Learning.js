@@ -516,7 +516,7 @@
 //33 - How to create a new element in DOM (Document Object Model)
 // Relation
 // https://www.youtube.com/watch?v=xAvTgCsCHLs
-// In this we can manioulate HTML (DOM MANIOULATION)
+// In this we can manioulate HTML (DOM MANIPULATION)
 // we can select different element and select or appendchild in that particular element
 //
 // const div = document.createElement("div"); <--- here it createElement div which can be used for insert more elment and attribute
@@ -1104,7 +1104,6 @@ the newly created object is returned
 // 48 - Getter Setter and stack Overflow
 //https://www.youtube.com/watch?v=t6vLhF-iSxQ&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=48
 
- 
 // class User {
 //   constructor(username, password) {
 //     this.username = username;
@@ -1132,17 +1131,13 @@ the newly created object is returned
 
 //way to set Properties (old) <- not neccesaay but should know
 
-
 //49 - Lexical scoping and closure
 
-//Lexical scoping 
+//Lexical scoping
 //inner child can get parent variable but parent cannot cannot child variable
 //Closure
 //do it properly
 
-
-//50 
+//50
 
 // 51 - More about Array
-
-
