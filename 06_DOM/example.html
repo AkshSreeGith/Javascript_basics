@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+  </head>
+  <body>
+    <h1 class="heading" id="title">DOM Manipulation it is my g</h1>
+    <p class="content">
+      Heyy this is me trying to learn about DOM Manipulation let's see how it
+      goes No more hesitation from now
+    </p>
+
+    <ul class="unordered" id="unordered">
+      <li>Lorem, ipsum dolor.</li>
+      <li>Minima, cumque recusandae.</li>
+      <li>Rerum, assumenda modi.</li>
+    </ul>
+    <ul id="unordered2">
+      <li class="list-items">Lorem, ipsum dolor.</li>
+      <li class="list-items">Doloribus, qui iste.</li>
+      <li class="list-items">Inventore, cumque quibusdam?</li>
+    </ul>
+    <div class="parent">
+      <li class="lists">Monday</li>
+      <li class="lists">Tuesday</li>
+      <li class="lists">Wednesday.</li>
+    </div>
+    <script>
+      // console.log("Hello");
+      const parent = document.querySelector(".parent");
+      // console.log(parent);
+      // console.log(parent.children);
+
+      for (let iterator = 0; iterator < parent.children.length; iterator++) {
+        console.log(parent.children[iterator]);
+        console.log(parent.children[iterator].innerHTML);
+        console.log(parent.children[iterator].textContent);
+      }
+    </script>
+  </body>
+</html>
