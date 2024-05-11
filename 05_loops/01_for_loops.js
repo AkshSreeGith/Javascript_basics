@@ -33,3 +33,27 @@ for (let i = 1; i <= 10; i++) {
   }
   console.log(i);
 }
+
+const students = ["Akshay", "Shruti", "Rutuja", "Tanisha"];
+// console.log(students);
+
+// students.forEach((student) => {
+//   console.log(`student s: ${student}`);
+// });
+
+for (const student of students) {
+  console.log(`Student no: ${student.indexOf(students)}`);
+}
+
+const newObject = {
+  name: "Akshay",
+  age: 20,
+  money: 0,
+  education: "Meaningless",
+};
+
+for (const key in newObject) {
+  if (Object.hasOwnProperty.call(newObject, key)) {
+    console.log(`Key : ${key} and the value: ${newObject[key]}`);
+  }
+}
