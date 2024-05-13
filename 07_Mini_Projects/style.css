@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    padding: 1%;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid #414A4C;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
