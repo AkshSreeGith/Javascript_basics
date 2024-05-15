@@ -23,9 +23,29 @@
     align-items: center;
 }
 
-.box {
+.button {
     border: 1px solid #414A4C;
     width: 10rem;
     height: 10rem;
     border-radius: 10px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#green {
+    background-color: green;
+}
+
+#brown {
+    background-color: brown;
 }
