@@ -36,6 +36,13 @@
     border-radius: 10px;
 }
 
+.default-btn {
+    padding: 1%;
+    background-color: green;
+    border-radius: 15px;
+    border: none;
+}
+
 #red {
     background-color: red;
 }

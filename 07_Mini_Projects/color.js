@@ -1,6 +1,8 @@
 console.log("Akshay");
 const buttons = document.querySelectorAll(".button");
 const body = document.querySelector("body");
+const defaultBtn = document.querySelector(".default-btn");
+
 console.log("Akshay");
 buttons.forEach(function (button) {
   console.log(button);
@@ -23,4 +25,8 @@ buttons.forEach(function (button) {
       body.style.backgroundColor = e.target.id;
     }
   });
+});
+
+defaultBtn.addEventListener("click", function () {
+  body.style.backgroundColor = "white";
 });
